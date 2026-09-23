@@ -51,8 +51,8 @@ php -l crystade-uptime-monitor.php
 php tests/test-plugin.php
 ```
 
-The current verification run used PHP 8.5 in the existing Ubuntu/WSL
-environment and passed syntax validation plus all 13 behavioral assertions.
+The current verification run used PHP 8.5.10 on Windows and passed syntax
+validation plus all 13 behavioral assertions.
 
 The exact Crystade authentication and response schema should be confirmed with
 the client before final integration. This proof intentionally keeps the
